@@ -10,7 +10,7 @@ server.listen(3333) */
 
 import { fastify } from "fastify";
 //import dataBase from './dataBase.js'
-import DataBasePostgres from "./dataBase-pOstgres.js";
+import DataBasePostgres from './dataBase-p0stgres.js';
 
 const server = fastify()
 //const data = new dataBase()
