@@ -56,5 +56,6 @@ server.delete('/cars/:id', async (request, reply) => {
 })
 
 server.listen({
-  port: 7777
+  host: '0.0.0.0',
+  port: process.env.PORT ?? 7777,
 })
