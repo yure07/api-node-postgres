@@ -1,0 +1,27 @@
+GET http://localhost:7777/cars
+
+###
+
+POST http://localhost:7777/cars
+Content-Type: application/json
+
+{
+  "name": "Opala",
+  "year": 1993,
+  "price": 17000
+}
+
+###
+
+PUT http://localhost:7777/cars/13df57c5-7922-48e4-97f9-b0f7cf191b71
+Content-Type: application/json
+
+{
+  "name": "Punto",
+  "year": 2015,
+  "price": 33500
+}
+
+###
+
+DELETE http://localhost:7777/cars/4c1536c3-2d33-4f46-8f9d-22a4f3788316
